@@ -57,3 +57,5 @@ nav .arrow-left {
 div {
   display: inline-block;
 }
+
+div:hover { color:#99ff99; }
