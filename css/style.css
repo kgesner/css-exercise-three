@@ -1,21 +1,61 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #333;
-  font-family: sans-serif;
+  font-family: Helvetica, sans-serif;
   font-size: 10px;
 }
 
 .container {
   margin: 0 auto;
   width: 420px;
+  background-color: #999999;
 }
 
 nav {
   margin: 0 auto;
-  padding: 10px 0 15px 15px;
+  padding: 10px 0 15px 0px;
   position: fixed;
   width: 420px;
+  background-color: #000;
+}
+nav .arrow-left {
+  padding-left: 15px;
+  height: 50;
 }
 
 .restaurant-list {
   padding-top: 50px;
 }
+
+.content {
+  width: 90%;
+  margin-right: 0px;
+}
+
+.content h1 {
+  font-size: 200%;
+  margin-bottom: 3px;
+  margin-top: 20px;
+}
+
+.content h3 {
+  font-size: 125%;
+  font-weight: 400;
+  margin-top: 3px;
+  margin-bottom: 20px;
+}
+
+.location {
+  width: 100%;
+  padding: 0 0 0 20px;
+  border-bottom: .5px solid #000;
+}
+
+div {
+  display: inline-block;
+}
+
+div:hover { background-color:#99ff99; }
